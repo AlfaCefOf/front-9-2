@@ -1,5 +1,16 @@
 import "./App.css";
 import logo1 from "./assets/Icon (1).png";
+import logo2 from "./assets/Illustration (1).png";
+import logo3 from "./assets/Logo (7).png";
+import logo4 from "./assets/Logo (8).png";
+import logo5 from "./assets/Logo (9).png";
+import logo6 from "./assets/Logo (10).png";
+import logo7 from "./assets/Logo (11).png";
+import logo8 from "./assets/Logo (12).png";
+import logo9 from "./assets/Icon (2).png";
+import logo10 from "./assets/Icon (3).png";
+import logo11 from "./assets/Icon (4).png";
+import logo12 from "./assets/Frame 35.png";
 
 function App() {
   return (
@@ -46,11 +57,7 @@ function App() {
                 </p>
                 <button>Register</button>
               </div>
-              <img
-                className="rightSection1Img"
-                src="src/assets/Illustration (1).png"
-                alt=""
-              />
+              <img className="rightSection1Img" src={logo2} alt="" />
             </div>
           </div>
         </section>
@@ -66,25 +73,25 @@ function App() {
           <div className="container">
             <div className="section3Line">
               <a href="#">
-                <img src="src/assets/Logo (7).png" alt="" />
+                <img src={logo3} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (8).png" alt="" />
+                <img src={logo4} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (9).png" alt="" />
+                <img src={logo5} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (10).png" alt="" />
+                <img src={logo6} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (11).png" alt="" />
+                <img src={logo7} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (12).png" alt="" />
+                <img src={logo8} alt="" />
               </a>
               <a href="#">
-                <img src="src/assets/Logo (9).png" alt="" />
+                <img src={logo5} alt="" />
               </a>
             </div>
           </div>
@@ -96,7 +103,7 @@ function App() {
           <div className="container">
             <div className="section4Line">
               <div className="infoSection4">
-                <img src="src/assets/Icon (2).png" alt="" />
+                <img src={logo9} alt="" />
                 <h5>Membership Organisations</h5>
                 <p>
                   Our membership management software provides full automation of
@@ -104,7 +111,7 @@ function App() {
                 </p>
               </div>
               <div className="infoSection4">
-                <img src="src/assets/Icon (3).png" alt="" />
+                <img src={logo10} alt="" />
                 <h5>National Associations</h5>
                 <p>
                   Our membership management software provides full automation of
@@ -112,7 +119,7 @@ function App() {
                 </p>
               </div>
               <div className="infoSection4">
-                <img src="src/assets/Icon (4).png" alt="" />
+                <img src={logo11} alt="" />
                 <h5>Clubs And Groups</h5>
                 <p>
                   Our membership management software provides full automation of
@@ -139,7 +146,7 @@ function App() {
               </div>
               <img
                 className="rightSection5Img"
-                src="src/assets/Frame 35.png"
+                src={logo12}
                 alt=""
               />
             </div>
